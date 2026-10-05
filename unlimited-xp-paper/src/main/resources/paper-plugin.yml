@@ -1,0 +1,18 @@
+name: UnlimitedXP
+version: '1.0.0'
+main: com.example.unlimitedxp.UnlimitedXPPlugin
+api-version: '1.20'
+description: Paper plugin providing individual auto-refilling experience levels for players.
+authors:
+  - Vibhanshu
+
+permissions:
+  unlimitedxp.use:
+    description: Allows any player to toggle and set personal unlimited XP
+    default: true
+
+commands:
+  unlimitedxp:
+    description: Toggle or configure personal unlimited XP.
+    permission: unlimitedxp.use
+    usage: /<command> [toggle|set <level>|status]

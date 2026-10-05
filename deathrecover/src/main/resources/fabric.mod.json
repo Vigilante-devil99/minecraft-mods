@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "deathrecover",
+  "version": "1.0.0",
+  "name": "Item Recover",
+  "description": "Protects and restores all inventory, armor, and XP upon death.",
+  "authors": [
+    "Vibhanshu"
+  ],
+  "contact": {},
+  "license": "CC0-1.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.deathrecover.DeathRecoverMod"
+    ]
+  },
+  "depends": {
+    "fabric-api": "*"
+  }
+}
